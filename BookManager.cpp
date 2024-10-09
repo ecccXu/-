@@ -176,7 +176,7 @@ void SaveBook(BookInfo *head)
     FILE *fp;
     p = head;
     //以只写的方式打开文件
-    fp = fopen("booklist.txt", "w");
+    fp = fopen("Library-Management-System/booklist.txt", "w");
     fprintf(fp, "|------|---------------------|-----------|----------------|--------------|\n");
     fprintf(fp, "|编号  |        书名         |    作者     |   类别编号      |      价格    |\n");
     fprintf(fp, "|------|---------------------|-----------|----------------|--------------|\n");
